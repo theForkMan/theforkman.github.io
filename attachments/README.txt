@@ -25,6 +25,7 @@ Contents:  (search for the tag with the @ symbol to jump to a section)
   @PATCHING
 
 
+
 This mod requires the 1.1 US version of the Final Fantasy 2/4j SNES ROM.
 
 You have two options for patching: 
@@ -36,7 +37,7 @@ You have two options for patching:
 If patched successfully, you should have a playable FF4_Stasis.smc file,
  the title screen should say "STASIS" at the bottom when you start the game,
  and it should have a SHA-1 hash of 9770E92203D2797F1A10344DD03C8087B16AB2D6
- (you can check the MD5 sum here: https://www.romhacking.net/hash/ )
+ (you can check the SHA-1 here: https://www.romhacking.net/hash/ )
 
 You should also have an ArmorGuide.pdf file, which contains a full list of armor in the game.
 
@@ -58,7 +59,7 @@ Here's a bird's eye view of what this mod does (for a complete list, see the CHA
 
  - Levels and XP are gone: your characters now have the same base stats throughout the game
 
- - All weapons and armor have been redesigned.  Equipment is now the only way to boost your character's stats, and choosing your armor provides more flexibility in how you prioritize and build your characters
+ - All weapons and armor have been redesigned.  Equipment is now the only way to boost your characters' stats, and choosing your armor provides more flexibility in how you prioritize and build your characters
 
  - All enemy stats have been adjusted, and some enemy behavior has been changed
 
