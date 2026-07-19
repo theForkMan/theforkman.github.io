@@ -25,7 +25,6 @@ Contents:  (search for the tag with the @ symbol to jump to a section)
   @PATCHING
 
 
-
 This mod requires the 1.1 US version of the Final Fantasy 2/4j SNES ROM.
 
 You have two options for patching: 
@@ -37,7 +36,7 @@ You have two options for patching:
 If patched successfully, you should have a playable FF4_Stasis.smc file,
  the title screen should say "STASIS" at the bottom when you start the game,
  and it should have a SHA-1 hash of 9770E92203D2797F1A10344DD03C8087B16AB2D6
- (you can check the SHA-1 here: https://www.romhacking.net/hash/ )
+ (you can check the MD5 sum here: https://www.romhacking.net/hash/ )
 
 You should also have an ArmorGuide.pdf file, which contains a full list of armor in the game.
 
@@ -59,7 +58,7 @@ Here's a bird's eye view of what this mod does (for a complete list, see the CHA
 
  - Levels and XP are gone: your characters now have the same base stats throughout the game
 
- - All weapons and armor have been redesigned.  Equipment is now the only way to boost your characters' stats, and choosing your armor provides more flexibility in how you prioritize and build your characters
+ - All weapons and armor have been redesigned.  Equipment is now the only way to boost your character's stats, and choosing your armor provides more flexibility in how you prioritize and build your characters
 
  - All enemy stats have been adjusted, and some enemy behavior has been changed
 
@@ -443,13 +442,13 @@ Being limited to saving at save points usually means you have to waste a bunch o
 This mod wouldn't have been possible without the following people:
 
 
-Aexoden, chillifeez, Crow! for answering my nooby questions and helping me learn the basics of general romhacking, how to hack FF4 specifically, and helping me take my first steps into assembly hacking (like figuring out where the physical damage code is and how it works, where the sell-back price code is, and how to do the GP flee code).
+Aexoden, chillyfeez, Crow! for answering my nooby questions and helping me learn the basics of general romhacking, how to hack FF4 specifically, and helping me take my first steps into assembly hacking (like figuring out where the physical damage code is and how it works, where the sell-back price code is, and how to do the GP flee code).
 
 Pinkpuff for making FF4kster open source, which was a massive help in figuring out how to modify practically everything in the game.
 
 Everything8215 for making FF6tools and his public Final Fantasy IV Dissassembly, which was a huge help in figuring out how to do certain assembly hacks.
 
-Thanks again to Crow! for making the TLS Equipment Screen Mod, Grimoire LD and chillifeez for the Critical Hit Fix patch, and Dragoon ZERO for the Long Range Fix patch.
+Thanks again to Crow! for making the TLS Equipment Screen Mod, Grimoire LD and chillyfeez for the Critical Hit Fix patch, and Dragoon ZERO for the Long Range Fix patch.
 
 Bond617 for hosting his site rb.thundaga.com after slick productions went down (though sadly it's down now too), along with the docs he wrote.
 
