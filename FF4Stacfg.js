@@ -6,4 +6,4 @@ FF4Stacfg.useheader = "never";
 FF4Stacfg.zipsave = "always";
 FF4Stacfg.romlist = [{cs:"27d02a4f03e172e029c9b82ac3db79f7",ver:"1.1 US",pid:0,pcs:"b6f85bcedbf9d9e581a6ce629bf16cd0"}];
 FF4Stacfg.usrlist = [{cs:"4fa9e542b954dcb954d5ce38188d9d41",ver:"1.0 US"}];
-FF4Stacfg.patchlist = [{cs:"3e821c93aab9143ab747afb34dbf5e3f",hd:false}];
+FF4Stacfg.patchlist = [{cs:"6268E59AC907BC2346827888B6DE7124",hd:false}];
