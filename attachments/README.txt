@@ -5,7 +5,7 @@
 
 
 
- Version 0.90
+ Version 0.91
  El Forko
  theForkMan@protonmail.com
 
@@ -19,6 +19,7 @@ Contents:  (search for the tag with the @ symbol to jump to a section)
 @BETA      - What's left to do before version 1.0
 @FAQ       - Frequently Asked Questions
 @THANKS    - Folks who's work made this possible
+@VERSIONS  - Version history
 
 
 
@@ -35,8 +36,8 @@ You have two options for patching:
 
 If patched successfully, you should have a playable FF4_Stasis.smc file,
  the title screen should say "STASIS" at the bottom when you start the game,
- and it should have a SHA-1 hash of 9770E92203D2797F1A10344DD03C8087B16AB2D6
- (you can check the MD5 sum here: https://www.romhacking.net/hash/ )
+ and it should have a SHA-1 hash of 2BE1CD66CFE0434FDBB451EE32A0EDC1F92126E8
+ (you can check the SHA-1 hash here: https://www.romhacking.net/hash/ )
 
 You should also have an ArmorGuide.pdf file, which contains a full list of armor in the game.
 
@@ -227,11 +228,11 @@ Here's a full list of changes this mod makes:
 
  Miscellaneous
 
- - Any item that has no effect will have a "no effect" message appear, so it's more explicit.
+ - Any item that has no effect will have a "no effect" message appear, so it's more explicit
 
  - Unique items are now unsellable, but can still be given to the Big Chocobo (who no longer requires carrots)
 
- - Equipment is returned to your inventory when characters leave (note: if your bag is full, equipment will be lost; practically, this shouldn't be an issue, unless you're in the habit of buying potions 1 at a time and not sorting them)
+ - Equipment is returned to your inventory when characters leave (note: if your bag is full, equipment will be lost; practically, this shouldn't be an issue, unless you're in the habit of buying potions one at a time and not sorting them)
 
  - NPCs in inns give mod-specific hints
 
@@ -389,7 +390,7 @@ Personal preference: In FF6 you move painfully slow without Sprint Shoes, but I 
 
 - Why no QOL disable random battles hack?
 
-Random battles are meant to be part of the game IMO.  That being said, I do think the devs totally dropped the ball in vanilla, making the random battles too frequent and too easy, so they ended up being feeling like tedious busywork instead of being interesting or challenging.  My hope is that I've fixed that (or at least made it a bit better).  You still have the options to skip battles, but it now comes at a cost of GP or MP.
+Random battles are meant to be part of the game IMO.  That being said, I do think the devs totally dropped the ball in vanilla, making the random battles too frequent and too easy, so they ended up feeling like tedious busywork instead of being interesting or challenging.  My hope is that I've fixed that (or at least made it a bit better).  You still have the options to skip battles, but it now comes at a cost of GP or MP.
 
 
 - Why isn't there [insert something else common to many other overhaul mods here]
@@ -399,12 +400,12 @@ Overall, I wanted to keep the feel of the original SNES game, since it's the gam
 
 - Why are potions self-cast/drink only?
 
-I initially wanted to try it just because it made more sense (having to stop for a moment to drink a potion, instead of having your ally crabwalking next to you and bottle-feeding you mid-battle).  Then after I tried it I really liked how it changes the way healing works.  For one thing, it makes White casters instantly more valuable, since they're now the only characters capable of healing other characters.  Also it adds value to the defensive stats of DPS characters and makes having glass-cannons more of a gamble, since they can now only be healed by the one or two characters in the party with White magic (or they have to forfeit a turn themselves to drink a potion).
+I initially wanted to try it just because it made more sense (having to stop for a moment to drink a potion, instead of having your ally crabwalking next to you and bottle-feeding you mid-battle).  Then after I tried it I really liked how it changes the way healing works.  For one thing, it makes White casters instantly more valuable, since they're now the only characters capable of healing other characters.  It also adds value to the defensive stats of DPS characters and makes having glass-cannons more of a gamble, since they can now only be healed by the one or two characters in the party with White magic (or they have to forfeit a turn themselves to drink a potion).
 
 
 - Why are Cure spells so weak?!
 
-This gives more value to defensive stats and gear, and rewards good healer MP management and using Cover.
+It gives more value to defensive stats and gear, and rewards good healer MP management and using Cover.
 
 
 - Why no Ether2 or Elixir?
@@ -455,5 +456,24 @@ Bond617 for hosting his site rb.thundaga.com after slick productions went down (
 Thanks by extension to everyone who made their work possible (especially whoever it was that wrote the Tower of Babil docs).
 
 BTB, Synchysi, and everyone else involved in making the FF6 Brave New World mod, which inspired me to get into romhacking in the first place.
+
+
+
+
+
+
+  @Version History
+
+
+ Version 0.91
+Mainly a few bugfixes:
+- Fixed an issue where saving on a bridge made you stuck when the game loaded
+- Fixed a bug in the text during the MomBomb fight
+- Fixed Milon's spell power (was too high)
+- Gave Cecil an Iron Helmet when he becomes a Paladin
+
+
+Version 0.90
+Initial public release
 
 
